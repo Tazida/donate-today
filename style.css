@@ -71,15 +71,48 @@ body {
   line-height: 22px;
   padding: 10px;
 }
-.type {
-  display: flex;
-  justify-content: space-between;
-}
-.type-donate {
-  flex-basis: 31%;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 10px 5px;
+
+.type-donate1,
+.type-donate2,
+.type-donate3 {
+  width: 300px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-sizing: border-box;
+  display: inline-block;
+}
+.foot h1 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(255, 77, 106);
+  border-style: solid;
+  border-color: black;
+}
+.foot p {
+  text-align: center;
+  color: wheat;
+}
+.foot {
+  background-color: black;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+}
+.update {
+  text-align: center;
+}
+.search-container {
+  text-align: center;
+  box-sizing: border-box;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 80%;
 }
