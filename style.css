@@ -1,0 +1,85 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(images/donation2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.yellow-color {
+  color: yellow;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.content h1 {
+  color: white;
+}
+.content p {
+  color: white;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(236, 13, 106), rgb(186, 35, 60));
+  padding: 10px 20px;
+  color: white;
+  font-size: 700;
+  border-radius: 5px;
+}
+.note-today {
+  text-align: center;
+  padding-top: 100px;
+}
+.taka {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-style: white;
+}
+.taka h1 {
+  display: inline-block;
+}
+#taka2 {
+  border: solid;
+  border-color: rgb(190, 252, 47);
+}
+.amount p {
+  text-decoration: underline;
+}
+.plan {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+.plan h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.plan p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.type {
+  display: flex;
+  justify-content: space-between;
+}
+.type-donate {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
